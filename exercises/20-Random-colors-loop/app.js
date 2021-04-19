@@ -1,5 +1,9 @@
+
 function getColor(colorNumber=0)
 {
+	var randomNumber = Math.floor(Math.random() *4) + 1  
+    return randomNumber;
+console.log(getColor());
 	//make sure parameter is a number and not a string by converting the value to int:
 	colorNumber = parseInt(colorNumber);
 	switch(colorNumber){
